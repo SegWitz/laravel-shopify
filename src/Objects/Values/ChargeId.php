@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Funeralzone\ValueObjects\Scalars\IntegerTrait;
 use Funeralzone\ValueObjects\ValueObject;

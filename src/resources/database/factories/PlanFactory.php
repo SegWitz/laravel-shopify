@@ -1,10 +1,10 @@
 <?php
 
 use Faker\Generator as Faker;
-use Osiset\ShopifyApp\Objects\Enums\PlanInterval;
-use Osiset\ShopifyApp\Objects\Enums\PlanType;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Enums\PlanInterval;
+use Segwitz\ShopifyApp\Objects\Enums\PlanType;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Util;
 
 $planModel = Util::getShopifyConfig('models.plan', Plan::class);
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Services;
+namespace Segwitz\ShopifyApp\Test\Services;
 
-use Osiset\ShopifyApp\Services\CookieHelper;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Services\CookieHelper;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class CookieHelperTest extends TestCase
 {

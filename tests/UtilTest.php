@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test;
+namespace Segwitz\ShopifyApp\Test;
 
 use Illuminate\Support\Facades\Config;
 use LogicException;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Util;
 use stdClass;
 
 class UtilTest extends TestCase

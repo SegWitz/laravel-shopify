@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Http\Middleware;
+namespace Segwitz\ShopifyApp\Test\Http\Middleware;
 
 use Illuminate\Auth\AuthManager;
-use Osiset\ShopifyApp\Http\Middleware\Billable as BillableMiddleware;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Http\Middleware\Billable as BillableMiddleware;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class BillableTest extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits;
+namespace Segwitz\ShopifyApp\Test\Traits;
 
 use Illuminate\Auth\AuthManager;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class BillingControllerTest extends TestCase
 {

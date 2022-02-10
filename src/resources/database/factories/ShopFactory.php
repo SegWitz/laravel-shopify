@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator as Faker;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Util;
 
 $model = Util::getShopifyConfig('user_model');
 

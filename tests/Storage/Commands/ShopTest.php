@@ -1,18 +1,18 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Storage\Commands;
+namespace Segwitz\ShopifyApp\Test\Storage\Commands;
 
-use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Objects\Values\AccessToken;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
+use Segwitz\ShopifyApp\Objects\Values\AccessToken;
+use Segwitz\ShopifyApp\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class ShopTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Contracts\Commands\Shop
+     * @var \Segwitz\ShopifyApp\Contracts\Commands\Shop
      */
     protected $command;
 

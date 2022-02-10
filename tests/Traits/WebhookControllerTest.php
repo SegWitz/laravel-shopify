@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits;
+namespace Segwitz\ShopifyApp\Test\Traits;
 
 use App\Jobs\OrdersCreateJob;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Queue;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Test\TestCase;
 use stdClass;
 
 require_once __DIR__.'/../Stubs/OrdersCreateJob.php';

@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
-use Osiset\BasicShopifyAPI\ResponseAccess;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\BasicShopifyAPI\ResponseAccess;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
 
 /**
  * Create webhooks for this app on the shop.

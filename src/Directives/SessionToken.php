@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Directives;
+namespace Segwitz\ShopifyApp\Directives;
 
 /**
  * Provides a Blade directive for session tokens.

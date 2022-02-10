@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Exceptions;
+namespace Segwitz\ShopifyApp\Exceptions;
 
 /**
  * Exception for use in requests that need http responses.

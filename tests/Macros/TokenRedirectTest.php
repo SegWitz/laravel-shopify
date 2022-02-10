@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Macros;
+namespace Segwitz\ShopifyApp\Test\Macros;
 
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Request;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class TokenRedirectTest extends TestCase
 {

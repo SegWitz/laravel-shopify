@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Services;
+namespace Segwitz\ShopifyApp\Services;
 
 use Illuminate\Support\Facades\Config;
 use Jenssegers\Agent\Agent;

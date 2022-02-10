@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Traits;
+namespace Segwitz\ShopifyApp\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response as ResponseResponse;
 use Illuminate\Support\Facades\Response;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for handling incoming webhook requests.

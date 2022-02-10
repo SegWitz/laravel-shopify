@@ -1,14 +1,14 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Middleware;
+namespace Segwitz\ShopifyApp\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Facades\Response;
-use Osiset\ShopifyApp\Objects\Values\Hmac;
-use Osiset\ShopifyApp\Objects\Values\NullableShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Values\Hmac;
+use Segwitz\ShopifyApp\Objects\Values\NullableShopDomain;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Response for ensuring a proper webhook request.

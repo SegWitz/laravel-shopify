@@ -1,16 +1,16 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Storage\Queries;
+namespace Segwitz\ShopifyApp\Test\Storage\Queries;
 
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class ShopTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Contracts\Queries\Shop
+     * @var \Segwitz\ShopifyApp\Contracts\Queries\Shop
      */
     protected $query;
 

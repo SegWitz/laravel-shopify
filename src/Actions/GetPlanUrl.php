@@ -1,14 +1,14 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
-use Osiset\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Enums\ChargeInterval;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Values\NullablePlanId;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Services\ChargeHelper;
+use Segwitz\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeInterval;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Values\NullablePlanId;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Services\ChargeHelper;
 
 /**
  * Retrieve the a billing plan's URL.

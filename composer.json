@@ -1,5 +1,5 @@
 {
-    "name": "osiset/laravel-shopify",
+    "name": "segwitz/laravel-shopify",
     "description": "Shopify package for Laravel to aide in app development",
     "keywords": [
         "api",
@@ -19,8 +19,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Tyler King",
-            "email": "tyler@osiset.com"
+            "name": "Segwitz",
+            "email": "hello@segwitz.com"
         }
     ],
     "require": {
@@ -29,7 +29,7 @@
         "funeralzone/valueobjects": "^0.5",
         "jenssegers/agent": "^2.6",
         "laravel/framework": "^7.0 || ^8.0",
-        "osiset/basic-shopify-api": "^9.0 || ^10.0"
+        "segwitz/basic-shopify-api": "dev-master"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.8",
@@ -46,18 +46,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Osiset\\ShopifyApp\\ShopifyAppProvider"
+                "Segwitz\\ShopifyApp\\ShopifyAppProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Osiset\\ShopifyApp\\": "src/"
+            "Segwitz\\ShopifyApp\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Osiset\\ShopifyApp\\Test\\": "tests/"
+            "Segwitz\\ShopifyApp\\Test\\": "tests/"
         }
     },
     "minimum-stability": "dev",
@@ -69,9 +69,9 @@
         "test-no-cov": "vendor/bin/phpunit --no-coverage"
     },
     "support": {
-        "issues": "https://github.com/osiset/laravel-shopify/issues",
-        "forum": "https://github.com/osiset/laravel-shopify/discussions",
-        "wiki": "https://github.com/osiset/laravel-shopify/wiki",
-        "source": "https://github.com/osiset/laravel-shopify"
+        "issues": "https://github.com/SegWitz/laravel-shopify/issues",
+        "forum": "https://github.com/SegWitz/laravel-shopify/discussions",
+        "wiki": "https://github.com/SegWitz/laravel-shopify/wiki",
+        "source": "https://github.com/SegWitz/laravel-shopify"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Exceptions;
+namespace Segwitz\ShopifyApp\Exceptions;
 
 /**
  * Exception for when a charge is not recurring or one-time but is attempting to be cancelled.

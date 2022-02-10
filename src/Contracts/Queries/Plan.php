@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Contracts\Queries;
+namespace Segwitz\ShopifyApp\Contracts\Queries;
 
 use Illuminate\Support\Collection;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Storage\Models\Plan as PlanModel;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Storage\Models\Plan as PlanModel;
 
 /**
  * Represents a queries for plans.

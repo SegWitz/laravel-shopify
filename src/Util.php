@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp;
+namespace Segwitz\ShopifyApp;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 use LogicException;
-use Osiset\ShopifyApp\Objects\Values\Hmac;
+use Segwitz\ShopifyApp\Objects\Values\Hmac;
 
 /**
  * Utilities and helpers used in various parts of the package.

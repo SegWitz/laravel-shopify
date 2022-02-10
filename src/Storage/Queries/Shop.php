@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Storage\Queries;
+namespace Segwitz\ShopifyApp\Storage\Queries;
 
 use Illuminate\Support\Collection;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Contracts\ShopModel;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Contracts\ShopModel;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Represents shop queries.

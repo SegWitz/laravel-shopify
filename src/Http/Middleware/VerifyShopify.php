@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Middleware;
+namespace Segwitz\ShopifyApp\Http\Middleware;
 
 use Assert\AssertionFailedException;
 use Closure;
@@ -11,18 +11,18 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
-use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Contracts\ShopModel;
-use Osiset\ShopifyApp\Exceptions\HttpException;
-use Osiset\ShopifyApp\Exceptions\SignatureVerificationException;
-use Osiset\ShopifyApp\Objects\Enums\DataSource;
-use Osiset\ShopifyApp\Objects\Values\NullableSessionId;
-use Osiset\ShopifyApp\Objects\Values\SessionContext;
-use Osiset\ShopifyApp\Objects\Values\SessionToken;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\ApiHelper as IApiHelper;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Contracts\ShopModel;
+use Segwitz\ShopifyApp\Exceptions\HttpException;
+use Segwitz\ShopifyApp\Exceptions\SignatureVerificationException;
+use Segwitz\ShopifyApp\Objects\Enums\DataSource;
+use Segwitz\ShopifyApp\Objects\Values\NullableSessionId;
+use Segwitz\ShopifyApp\Objects\Values\SessionContext;
+use Segwitz\ShopifyApp\Objects\Values\SessionToken;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for validating the request.

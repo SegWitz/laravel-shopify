@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Traits;
+namespace Segwitz\ShopifyApp\Traits;
 
 use Illuminate\Contracts\View\View as ViewView;
 use Illuminate\Http\Request;

@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Storage\Models;
+namespace Segwitz\ShopifyApp\Storage\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeStatus;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for reprecenting a charge record.

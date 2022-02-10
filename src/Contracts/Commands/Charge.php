@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Contracts\Commands;
+namespace Segwitz\ShopifyApp\Contracts\Commands;
 
 use Illuminate\Support\Carbon as Carbon;
-use Osiset\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
 
 /**
  * Represents commands for charges.

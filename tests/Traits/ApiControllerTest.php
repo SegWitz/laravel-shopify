@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits;
+namespace Segwitz\ShopifyApp\Test\Traits;
 
 use Illuminate\Http\Response;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class ApiControllerTest extends TestCase
 {

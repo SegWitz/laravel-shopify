@@ -1,17 +1,17 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
 use Illuminate\Support\Facades\Queue;
-use Osiset\ShopifyApp\Actions\DispatchWebhooks;
-use Osiset\ShopifyApp\Messaging\Jobs\WebhookInstaller;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\DispatchWebhooks;
+use Segwitz\ShopifyApp\Messaging\Jobs\WebhookInstaller;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class DispatchWebhooksTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\DispatchWebhooks
+     * @var \Segwitz\ShopifyApp\Actions\DispatchWebhooks
      */
     protected $action;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Transfers;
+namespace Segwitz\ShopifyApp\Objects\Transfers;
 
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
 
 /**
  * Represents details for a usage charge.

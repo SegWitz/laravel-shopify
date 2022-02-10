@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Contracts\Queries;
+namespace Segwitz\ShopifyApp\Contracts\Queries;
 
 use Illuminate\Support\Collection;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
-use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Contracts\ShopModel as IShopModel;
 
 /**
  * Represents a queries for shops.

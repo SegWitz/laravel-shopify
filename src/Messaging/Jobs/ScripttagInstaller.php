@@ -1,14 +1,14 @@
 <?php
 
-namespace Osiset\ShopifyApp\Messaging\Jobs;
+namespace Segwitz\ShopifyApp\Messaging\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Osiset\ShopifyApp\Actions\CreateScripts as CreateScriptsAction;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Actions\CreateScripts as CreateScriptsAction;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
 
 /**
  * Webhook job responsible for handling installing scripttag.

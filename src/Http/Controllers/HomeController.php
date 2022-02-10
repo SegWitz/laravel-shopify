@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Controllers;
+namespace Segwitz\ShopifyApp\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Osiset\ShopifyApp\Traits\HomeController as HomeControllerTrait;
+use Segwitz\ShopifyApp\Traits\HomeController as HomeControllerTrait;
 
 /**
  * Responsible for showing the main homescreen for the app.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Http\Requests;
+namespace Segwitz\ShopifyApp\Test\Http\Requests;
 
 use Illuminate\Support\Facades\Validator;
-use Osiset\ShopifyApp\Http\Requests\StoreUsageCharge;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Http\Requests\StoreUsageCharge;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class StoreUsageChargeTest extends TestCase
 {

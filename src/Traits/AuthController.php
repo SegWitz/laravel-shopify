@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Traits;
+namespace Segwitz\ShopifyApp\Traits;
 
 use Illuminate\Contracts\View\View as ViewView;
 use Illuminate\Http\RedirectResponse;
@@ -8,12 +8,12 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\View;
-use Osiset\ShopifyApp\Actions\AuthenticateShop;
-use Osiset\ShopifyApp\Exceptions\MissingAuthUrlException;
-use Osiset\ShopifyApp\Exceptions\MissingShopDomainException;
-use Osiset\ShopifyApp\Exceptions\SignatureVerificationException;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\AuthenticateShop;
+use Segwitz\ShopifyApp\Exceptions\MissingAuthUrlException;
+use Segwitz\ShopifyApp\Exceptions\MissingShopDomainException;
+use Segwitz\ShopifyApp\Exceptions\SignatureVerificationException;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for authenticating the shop.

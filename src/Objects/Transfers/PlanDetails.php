@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Transfers;
+namespace Segwitz\ShopifyApp\Objects\Transfers;
 
 /**
  * Represents details for a plan.

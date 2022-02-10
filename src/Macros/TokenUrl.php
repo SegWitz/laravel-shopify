@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Macros;
+namespace Segwitz\ShopifyApp\Macros;
 
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\URL;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Common URL generation for TokenRedirect and TokenRoute macros.

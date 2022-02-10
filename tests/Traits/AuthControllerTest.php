@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits;
+namespace Segwitz\ShopifyApp\Test\Traits;
 
 use Illuminate\Http\Response;
-use Osiset\ShopifyApp\Exceptions\MissingShopDomainException;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Exceptions\MissingShopDomainException;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class AuthControllerTest extends TestCase
 {

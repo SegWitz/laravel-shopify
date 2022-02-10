@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
 use Exception;
-use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
-use Osiset\ShopifyApp\Objects\Values\AccessToken;
-use Osiset\ShopifyApp\Objects\Values\NullAccessToken;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Objects\Enums\AuthMode;
+use Segwitz\ShopifyApp\Objects\Values\AccessToken;
+use Segwitz\ShopifyApp\Objects\Values\NullAccessToken;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Install steps for a shop.

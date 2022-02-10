@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Messaging\Jobs;
+namespace Segwitz\ShopifyApp\Test\Messaging\Jobs;
 
-use Osiset\ShopifyApp\Messaging\Jobs\AppUninstalledJob;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Messaging\Jobs\AppUninstalledJob;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeStatus;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class AppUninstalledTest extends TestCase
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\CancelCurrentPlan;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\CancelCurrentPlan;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class CancelCurrentPlanTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\CancelCurrentPlan
+     * @var \Segwitz\ShopifyApp\Actions\CancelCurrentPlan
      */
     protected $action;
 

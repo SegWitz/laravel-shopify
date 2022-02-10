@@ -1,14 +1,14 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Objects\Values;
+namespace Segwitz\ShopifyApp\Test\Objects\Values;
 
 use Assert\AssertionFailedException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use Osiset\ShopifyApp\Contracts\Objects\Values\SessionId as SessionIdValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Objects\Values\SessionToken;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\SessionId as SessionIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Objects\Values\SessionToken;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class SessionTokenTest extends TestCase
 {

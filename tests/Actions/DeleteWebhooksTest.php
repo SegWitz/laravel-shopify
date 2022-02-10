@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\DeleteWebhooks;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\DeleteWebhooks;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class DeleteWebhooksTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\DeleteWebhooks
+     * @var \Segwitz\ShopifyApp\Actions\DeleteWebhooks
      */
     protected $action;
 

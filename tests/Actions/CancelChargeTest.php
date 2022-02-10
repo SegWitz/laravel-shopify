@@ -1,19 +1,19 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\CancelCharge;
-use Osiset\ShopifyApp\Exceptions\ChargeNotRecurringOrOnetimeException;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\CancelCharge;
+use Segwitz\ShopifyApp\Exceptions\ChargeNotRecurringOrOnetimeException;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class CancelChargeTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\CancelCharge
+     * @var \Segwitz\ShopifyApp\Actions\CancelCharge
      */
     protected $action;
 

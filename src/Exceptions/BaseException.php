@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Exceptions;
+namespace Segwitz\ShopifyApp\Exceptions;
 
 use Exception;
 

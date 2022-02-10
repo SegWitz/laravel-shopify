@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Console;
+namespace Segwitz\ShopifyApp\Test\Console;
 
-use Osiset\ShopifyApp\Console\WebhookJobMakeCommand;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Console\WebhookJobMakeCommand;
+use Segwitz\ShopifyApp\Test\TestCase;
 use ReflectionMethod;
 use Symfony\Component\Console\Application as ConsoleApplication;
 

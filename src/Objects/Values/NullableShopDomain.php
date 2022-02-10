@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Funeralzone\ValueObjects\Nullable;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
 
 /**
  * Value object for the shop's domain (nullable).

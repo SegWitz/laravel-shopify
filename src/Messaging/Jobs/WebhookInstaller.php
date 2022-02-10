@@ -1,14 +1,14 @@
 <?php
 
-namespace Osiset\ShopifyApp\Messaging\Jobs;
+namespace Segwitz\ShopifyApp\Messaging\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Osiset\ShopifyApp\Actions\CreateWebhooks as CreateWebhooksAction;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Actions\CreateWebhooks as CreateWebhooksAction;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
 
 /**
  * Webhook job responsible for handling installation of webhook listeners.

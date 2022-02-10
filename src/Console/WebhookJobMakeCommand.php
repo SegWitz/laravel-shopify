@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Console;
+namespace Segwitz\ShopifyApp\Console;
 
 use Illuminate\Foundation\Console\JobMakeCommand;
 use Illuminate\Support\Str;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Util;
 use Symfony\Component\Console\Input\InputArgument;
 
 class WebhookJobMakeCommand extends JobMakeCommand

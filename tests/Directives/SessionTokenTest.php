@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Directives;
+namespace Segwitz\ShopifyApp\Test\Directives;
 
-use Osiset\ShopifyApp\Directives\SessionToken;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Directives\SessionToken;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class SessionTokenTest extends TestCase
 {

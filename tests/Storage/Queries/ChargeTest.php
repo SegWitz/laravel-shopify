@@ -1,19 +1,19 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Storage\Queries;
+namespace Segwitz\ShopifyApp\Test\Storage\Queries;
 
-use Osiset\ShopifyApp\Contracts\Queries\Charge as IChargeQuery;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Queries\Charge as IChargeQuery;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class ChargeTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Contracts\Queries\Charge
+     * @var \Segwitz\ShopifyApp\Contracts\Queries\Charge
      */
     protected $query;
 

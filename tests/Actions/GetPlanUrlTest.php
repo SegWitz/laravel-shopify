@@ -1,18 +1,18 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\GetPlanUrl;
-use Osiset\ShopifyApp\Objects\Values\NullablePlanId;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\GetPlanUrl;
+use Segwitz\ShopifyApp\Objects\Values\NullablePlanId;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class GetPlanUrlTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\GetPlanUrl
+     * @var \Segwitz\ShopifyApp\Actions\GetPlanUrl
      */
     protected $action;
 

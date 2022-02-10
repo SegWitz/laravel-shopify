@@ -1,14 +1,14 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Assert\AssertionFailedException;
 use Funeralzone\ValueObjects\Scalars\StringTrait;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Objects\Enums\DataSource;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Objects\Enums\DataSource;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Value object for shop's domain.

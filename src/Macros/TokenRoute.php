@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Macros;
+namespace Segwitz\ShopifyApp\Macros;
 
 use Illuminate\Support\Facades\URL;
 

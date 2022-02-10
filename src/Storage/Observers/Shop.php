@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Storage\Observers;
+namespace Segwitz\ShopifyApp\Storage\Observers;
 
-use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
+use Segwitz\ShopifyApp\Contracts\ShopModel as IShopModel;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for observing changes to the shop (user) model.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Requests;
+namespace Segwitz\ShopifyApp\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Validator;
-use Osiset\ShopifyApp\Objects\Values\Hmac;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Values\Hmac;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Handles validating a usage charge.

@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits;
+namespace Segwitz\ShopifyApp\Test\Traits;
 
-use Osiset\BasicShopifyAPI\BasicShopifyAPI;
-use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\BasicShopifyAPI\BasicShopifyAPI;
+use Segwitz\ShopifyApp\Contracts\ApiHelper as IApiHelper;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\AccessToken;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class ShopModelTest extends TestCase
 {

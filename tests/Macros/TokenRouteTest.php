@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Macros;
+namespace Segwitz\ShopifyApp\Test\Macros;
 
 use Illuminate\Routing\UrlGenerator;
 use Illuminate\Support\Facades\Request;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class TokenRouteTest extends TestCase
 {

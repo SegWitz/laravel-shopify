@@ -1,10 +1,10 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
 use Illuminate\Http\Request;
-use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Contracts\ApiHelper as IApiHelper;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
 
 /**
  * Authenticates a shop and fires post authentication actions.

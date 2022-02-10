@@ -1,18 +1,18 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
 use Illuminate\Support\Carbon;
-use Osiset\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Exceptions\ChargeNotRecurringException;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Services\ChargeHelper;
+use Segwitz\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Exceptions\ChargeNotRecurringException;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Services\ChargeHelper;
 
 /**
  * Activates a usage charge for a shop.

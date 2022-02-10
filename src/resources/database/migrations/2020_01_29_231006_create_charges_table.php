@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Schema;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Util;
 
 class CreateChargesTable extends Migration
 {

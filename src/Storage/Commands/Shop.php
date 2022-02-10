@@ -1,16 +1,16 @@
 <?php
 
-namespace Osiset\ShopifyApp\Storage\Commands;
+namespace Segwitz\ShopifyApp\Storage\Commands;
 
 use Illuminate\Support\Carbon;
-use Osiset\ShopifyApp\Contracts\Commands\Shop as ShopCommand;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as ShopQuery;
-use Osiset\ShopifyApp\Contracts\ShopModel;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Commands\Shop as ShopCommand;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as ShopQuery;
+use Segwitz\ShopifyApp\Contracts\ShopModel;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Represents the commands for shops.

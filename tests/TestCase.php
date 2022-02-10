@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test;
+namespace Segwitz\ShopifyApp\Test;
 
 use Carbon\CarbonImmutable;
 use Closure;
@@ -11,14 +11,14 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Request as FacadesRequest;
 use Orchestra\Database\ConsoleServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Osiset\BasicShopifyAPI\Options;
-use Osiset\ShopifyApp\Contracts\ShopModel;
-use Osiset\ShopifyApp\Objects\Values\Hmac;
-use Osiset\ShopifyApp\ShopifyAppProvider;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\Stubs\Kernel as StubKernel;
-use Osiset\ShopifyApp\Test\Stubs\User as UserStub;
-use Osiset\ShopifyApp\Util;
+use Segwitz\BasicShopifyAPI\Options;
+use Segwitz\ShopifyApp\Contracts\ShopModel;
+use Segwitz\ShopifyApp\Objects\Values\Hmac;
+use Segwitz\ShopifyApp\ShopifyAppProvider;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\Stubs\Kernel as StubKernel;
+use Segwitz\ShopifyApp\Test\Stubs\User as UserStub;
+use Segwitz\ShopifyApp\Util;
 
 abstract class TestCase extends OrchestraTestCase
 {

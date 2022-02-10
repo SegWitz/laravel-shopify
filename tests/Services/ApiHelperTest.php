@@ -1,26 +1,26 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Services;
+namespace Segwitz\ShopifyApp\Test\Services;
 
 use Exception;
-use Osiset\BasicShopifyAPI\BasicShopifyAPI;
-use Osiset\BasicShopifyAPI\ResponseAccess;
-use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Enums\PlanInterval;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails as PlanDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\BasicShopifyAPI\BasicShopifyAPI;
+use Segwitz\BasicShopifyAPI\ResponseAccess;
+use Segwitz\ShopifyApp\Contracts\ApiHelper as IApiHelper;
+use Segwitz\ShopifyApp\Contracts\ShopModel as IShopModel;
+use Segwitz\ShopifyApp\Objects\Enums\AuthMode;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Enums\PlanInterval;
+use Segwitz\ShopifyApp\Objects\Transfers\PlanDetails as PlanDetailsTransfer;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class ApiHelperTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Contracts\ApiHelper
+     * @var \Segwitz\ShopifyApp\Contracts\ApiHelper
      */
     protected $api;
 

@@ -1,23 +1,23 @@
 <?php
 
-namespace Osiset\ShopifyApp\Traits;
+namespace Segwitz\ShopifyApp\Traits;
 
 use Illuminate\Contracts\View\View as ViewView;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\View;
-use Osiset\ShopifyApp\Actions\ActivatePlan;
-use Osiset\ShopifyApp\Actions\ActivateUsageCharge;
-use Osiset\ShopifyApp\Actions\GetPlanUrl;
-use Osiset\ShopifyApp\Http\Requests\StoreUsageCharge;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\NullablePlanId;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Storage\Queries\Shop as ShopQuery;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\ActivatePlan;
+use Segwitz\ShopifyApp\Actions\ActivateUsageCharge;
+use Segwitz\ShopifyApp\Actions\GetPlanUrl;
+use Segwitz\ShopifyApp\Http\Requests\StoreUsageCharge;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\NullablePlanId;
+use Segwitz\ShopifyApp\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Storage\Queries\Shop as ShopQuery;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for billing a shop for plans and usage charges.

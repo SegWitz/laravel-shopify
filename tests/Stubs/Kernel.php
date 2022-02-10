@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Stubs;
+namespace Segwitz\ShopifyApp\Test\Stubs;
 
 use Illuminate\Auth\Middleware\Authenticate;
 use Illuminate\Auth\Middleware\AuthenticateWithBasicAuth;
@@ -8,10 +8,10 @@ use Illuminate\Auth\Middleware\Authorize;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Routing\Middleware\ThrottleRequests;
 use Orchestra\Testbench\Http\Middleware\RedirectIfAuthenticated;
-use Osiset\ShopifyApp\Http\Middleware\AuthProxy;
-use Osiset\ShopifyApp\Http\Middleware\AuthWebhook;
-use Osiset\ShopifyApp\Http\Middleware\Billable;
-use Osiset\ShopifyApp\Http\Middleware\VerifyShopify;
+use Segwitz\ShopifyApp\Http\Middleware\AuthProxy;
+use Segwitz\ShopifyApp\Http\Middleware\AuthWebhook;
+use Segwitz\ShopifyApp\Http\Middleware\Billable;
+use Segwitz\ShopifyApp\Http\Middleware\VerifyShopify;
 
 class Kernel extends \Orchestra\Testbench\Http\Kernel
 {

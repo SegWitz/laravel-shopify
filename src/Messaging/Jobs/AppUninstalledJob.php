@@ -1,17 +1,17 @@
 <?php
 
-namespace Osiset\ShopifyApp\Messaging\Jobs;
+namespace Segwitz\ShopifyApp\Messaging\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Osiset\ShopifyApp\Actions\CancelCurrentPlan;
-use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\CancelCurrentPlan;
+use Segwitz\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Objects\Values\ShopDomain;
+use Segwitz\ShopifyApp\Util;
 use stdClass;
 
 /**

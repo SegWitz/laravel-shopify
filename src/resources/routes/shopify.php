@@ -10,10 +10,10 @@
 */
 
 use Illuminate\Support\Facades\Route;
-use Osiset\ShopifyApp\Http\Controllers\AuthController;
-use Osiset\ShopifyApp\Http\Controllers\BillingController;
-use Osiset\ShopifyApp\Http\Controllers\HomeController;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Http\Controllers\AuthController;
+use Segwitz\ShopifyApp\Http\Controllers\BillingController;
+use Segwitz\ShopifyApp\Http\Controllers\HomeController;
+use Segwitz\ShopifyApp\Util;
 
 // Check if manual routes override is to be use
 $manualRoutes = Util::getShopifyConfig('manual_routes');

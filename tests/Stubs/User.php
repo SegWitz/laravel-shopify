@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Stubs;
+namespace Segwitz\ShopifyApp\Test\Stubs;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
-use Osiset\ShopifyApp\Traits\ShopModel;
+use Segwitz\ShopifyApp\Contracts\ShopModel as IShopModel;
+use Segwitz\ShopifyApp\Traits\ShopModel;
 
 class User extends Authenticatable implements IShopModel
 {

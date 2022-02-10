@@ -1,17 +1,17 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Storage\Queries;
+namespace Segwitz\ShopifyApp\Test\Storage\Queries;
 
-use Osiset\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
+use Segwitz\ShopifyApp\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class PlanTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Contracts\Queries\Plan
+     * @var \Segwitz\ShopifyApp\Contracts\Queries\Plan
      */
     protected $query;
 

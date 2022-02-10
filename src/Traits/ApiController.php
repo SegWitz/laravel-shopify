@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Traits;
+namespace Segwitz\ShopifyApp\Traits;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Auth;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for showing the main homescreen for the app.

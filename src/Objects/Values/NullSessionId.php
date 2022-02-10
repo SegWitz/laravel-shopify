@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Funeralzone\ValueObjects\NullTrait;
-use Osiset\ShopifyApp\Contracts\Objects\Values\SessionId as SessionIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\SessionId as SessionIdValue;
 
 /**
  * Value object for session ID of a session token (null).

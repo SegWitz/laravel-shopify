@@ -1,24 +1,24 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Storage\Commands;
+namespace Segwitz\ShopifyApp\Test\Storage\Commands;
 
-use Osiset\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails as PlanDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeStatus;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
+use Segwitz\ShopifyApp\Objects\Transfers\PlanDetails as PlanDetailsTransfer;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class ChargeTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Contracts\Commands\Charge
+     * @var \Segwitz\ShopifyApp\Contracts\Commands\Charge
      */
     protected $command;
 

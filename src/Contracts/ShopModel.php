@@ -1,16 +1,16 @@
 <?php
 
-namespace Osiset\ShopifyApp\Contracts;
+namespace Segwitz\ShopifyApp\Contracts;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Osiset\BasicShopifyAPI\BasicShopifyAPI;
-use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
-use Osiset\ShopifyApp\Objects\Values\SessionContext;
+use Segwitz\BasicShopifyAPI\BasicShopifyAPI;
+use Segwitz\ShopifyApp\Contracts\ApiHelper as IApiHelper;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Objects\Values\SessionContext;
 
 /**
  * Represents the shop model.

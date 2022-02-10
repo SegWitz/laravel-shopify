@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Transfers;
+namespace Segwitz\ShopifyApp\Objects\Transfers;
 
 use Illuminate\Support\Carbon;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeStatus;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
 
 /**
  * Represents create usage charge.

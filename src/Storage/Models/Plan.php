@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Storage\Models;
+namespace Segwitz\ShopifyApp\Storage\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Osiset\ShopifyApp\Objects\Enums\PlanInterval;
-use Osiset\ShopifyApp\Objects\Enums\PlanType;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Enums\PlanInterval;
+use Segwitz\ShopifyApp\Objects\Enums\PlanType;
+use Segwitz\ShopifyApp\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for reprecenting a plan record.

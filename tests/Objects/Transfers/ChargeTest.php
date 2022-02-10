@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Objects\Transfers;
+namespace Segwitz\ShopifyApp\Test\Objects\Transfers;
 
 use Exception;
-use Osiset\ShopifyApp\Objects\Transfers\Charge;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Objects\Transfers\Charge;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class ChargeTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Objects\Transfers\Charge
+     * @var \Segwitz\ShopifyApp\Objects\Transfers\Charge
      */
     protected $charge;
 

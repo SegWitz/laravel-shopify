@@ -1,16 +1,16 @@
 <?php
 
-namespace Osiset\ShopifyApp\Contracts;
+namespace Segwitz\ShopifyApp\Contracts;
 
 use GuzzleHttp\Exception\RequestException;
-use Osiset\BasicShopifyAPI\BasicShopifyAPI;
-use Osiset\BasicShopifyAPI\ResponseAccess;
-use Osiset\BasicShopifyAPI\Session;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\BasicShopifyAPI\BasicShopifyAPI;
+use Segwitz\BasicShopifyAPI\ResponseAccess;
+use Segwitz\BasicShopifyAPI\Session;
+use Segwitz\ShopifyApp\Objects\Enums\AuthMode;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Transfers\PlanDetails;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageChargeDetails;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
 
 /**
  * Represents the API helper.

@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Funeralzone\ValueObjects\CompositeTrait;
 use Funeralzone\ValueObjects\ValueObject;
 use Illuminate\Support\Arr;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\SessionId as SessionIdValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\SessionToken as SessionTokenValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\SessionId as SessionIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\SessionToken as SessionTokenValue;
 
 /**
  * Used to inject current session data into the user's model.

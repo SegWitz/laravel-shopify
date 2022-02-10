@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Middleware;
+namespace Segwitz\ShopifyApp\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
-use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\ShopModel as IShopModel;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for ensuring the shop is being billed.

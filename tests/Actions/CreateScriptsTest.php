@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\CreateScripts;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\CreateScripts;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class CreateScriptsTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\CreateScripts
+     * @var \Segwitz\ShopifyApp\Actions\CreateScripts
      */
     protected $action;
 

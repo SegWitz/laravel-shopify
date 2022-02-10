@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Middleware;
+namespace Segwitz\ShopifyApp\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthManager;
@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Response;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as ShopQuery;
-use Osiset\ShopifyApp\Objects\Values\Hmac;
-use Osiset\ShopifyApp\Objects\Values\NullableShopDomain;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as ShopQuery;
+use Segwitz\ShopifyApp\Objects\Values\Hmac;
+use Segwitz\ShopifyApp\Objects\Values\NullableShopDomain;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Responsible for ensuring a proper app proxy request.

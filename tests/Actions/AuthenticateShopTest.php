@@ -1,16 +1,16 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
 use Illuminate\Support\Facades\Request;
-use Osiset\ShopifyApp\Actions\AuthenticateShop;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\AuthenticateShop;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class AuthenticateShopTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\AuthenticateShop
+     * @var \Segwitz\ShopifyApp\Actions\AuthenticateShop
      */
     protected $action;
 

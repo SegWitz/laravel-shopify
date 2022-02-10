@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits;
+namespace Segwitz\ShopifyApp\Test\Traits;
 
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Test\Traits\Stubs\TestShopAccessible;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Test\Traits\Stubs\TestShopAccessible;
 
 class ShopAccessibleTest extends TestCase
 {

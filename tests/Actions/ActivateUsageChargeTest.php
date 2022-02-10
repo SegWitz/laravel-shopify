@@ -1,21 +1,21 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\ActivateUsageCharge;
-use Osiset\ShopifyApp\Exceptions\ChargeNotRecurringException;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Actions\ActivateUsageCharge;
+use Segwitz\ShopifyApp\Exceptions\ChargeNotRecurringException;
+use Segwitz\ShopifyApp\Objects\Transfers\UsageChargeDetails;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class ActivateUsageChargeTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\ActivateUsageCharge
+     * @var \Segwitz\ShopifyApp\Actions\ActivateUsageCharge
      */
     protected $action;
 

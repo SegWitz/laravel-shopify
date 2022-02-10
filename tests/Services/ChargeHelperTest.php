@@ -1,21 +1,21 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Services;
+namespace Segwitz\ShopifyApp\Test\Services;
 
-use Osiset\BasicShopifyAPI\ResponseAccess;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails;
-use Osiset\ShopifyApp\Services\ChargeHelper;
-use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\BasicShopifyAPI\ResponseAccess;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeStatus;
+use Segwitz\ShopifyApp\Objects\Transfers\PlanDetails;
+use Segwitz\ShopifyApp\Services\ChargeHelper;
+use Segwitz\ShopifyApp\Storage\Models\Charge;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class ChargeHelperTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Services\ChargeHelper
+     * @var \Segwitz\ShopifyApp\Services\ChargeHelper
      */
     protected $chargeHelper;
 

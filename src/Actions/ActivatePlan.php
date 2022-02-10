@@ -1,21 +1,21 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
 use Illuminate\Support\Carbon;
-use Osiset\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
-use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Enums\PlanType;
-use Osiset\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Services\ChargeHelper;
+use Segwitz\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
+use Segwitz\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeStatus;
+use Segwitz\ShopifyApp\Objects\Enums\ChargeType;
+use Segwitz\ShopifyApp\Objects\Enums\PlanType;
+use Segwitz\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Services\ChargeHelper;
 
 /**
  * Activates a plan for a shop.

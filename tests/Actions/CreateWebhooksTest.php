@@ -1,15 +1,15 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
-use Osiset\ShopifyApp\Actions\CreateWebhooks;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\CreateWebhooks;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class CreateWebhooksTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\CreateWebhooks
+     * @var \Segwitz\ShopifyApp\Actions\CreateWebhooks
      */
     protected $action;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Osiset\ShopifyApp\Storage\Queries;
+namespace Segwitz\ShopifyApp\Storage\Queries;
 
-use Osiset\ShopifyApp\Contracts\Queries\Charge as IChargeQuery;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Storage\Models\Charge as ChargeModel;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Contracts\Queries\Charge as IChargeQuery;
+use Segwitz\ShopifyApp\Objects\Values\ChargeId;
+use Segwitz\ShopifyApp\Objects\Values\ChargeReference;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Storage\Models\Charge as ChargeModel;
+use Segwitz\ShopifyApp\Util;
 
 /**
  * Represents a queries for charges.

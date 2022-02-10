@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Http\Middleware;
+namespace Segwitz\ShopifyApp\Test\Http\Middleware;
 
 use Illuminate\Support\Facades\Request;
-use Osiset\ShopifyApp\Exceptions\HttpException;
-use Osiset\ShopifyApp\Exceptions\SignatureVerificationException;
-use Osiset\ShopifyApp\Http\Middleware\VerifyShopify;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Exceptions\HttpException;
+use Segwitz\ShopifyApp\Exceptions\SignatureVerificationException;
+use Segwitz\ShopifyApp\Http\Middleware\VerifyShopify;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class VerifyShopifyTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
 use Illuminate\Support\Facades\Queue;
-use Osiset\ShopifyApp\Actions\DispatchScripts;
-use Osiset\ShopifyApp\Messaging\Jobs\ScripttagInstaller;
-use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\DispatchScripts;
+use Segwitz\ShopifyApp\Messaging\Jobs\ScripttagInstaller;
+use Segwitz\ShopifyApp\Test\Stubs\Api as ApiStub;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class DispatchScriptsTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\DispatchScripts
+     * @var \Segwitz\ShopifyApp\Actions\DispatchScripts
      */
     protected $action;
 

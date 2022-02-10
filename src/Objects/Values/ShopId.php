@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Funeralzone\ValueObjects\Scalars\IntegerTrait;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
 
 /**
  * Value object for shop's ID.

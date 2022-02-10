@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Contracts\Commands;
+namespace Segwitz\ShopifyApp\Contracts\Commands;
 
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\ShopId as ShopIdValue;
 
 /**
  * Represents commands for shops.

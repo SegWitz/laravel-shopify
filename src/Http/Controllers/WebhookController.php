@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Controllers;
+namespace Segwitz\ShopifyApp\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Osiset\ShopifyApp\Traits\WebhookController as WebhookControllerTrait;
+use Segwitz\ShopifyApp\Traits\WebhookController as WebhookControllerTrait;
 
 /**
  * Responsible for handling incoming webhook requests.

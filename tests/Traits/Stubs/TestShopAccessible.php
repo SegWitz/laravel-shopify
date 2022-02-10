@@ -1,8 +1,8 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Traits\Stubs;
+namespace Segwitz\ShopifyApp\Test\Traits\Stubs;
 
-use Osiset\ShopifyApp\Traits\ShopAccessible;
+use Segwitz\ShopifyApp\Traits\ShopAccessible;
 
 class TestShopAccessible
 {

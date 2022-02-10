@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Actions;
+namespace Segwitz\ShopifyApp\Actions;
 
-use Osiset\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
-use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Services\ChargeHelper;
+use Segwitz\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
+use Segwitz\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
+use Segwitz\ShopifyApp\Objects\Values\ShopId;
+use Segwitz\ShopifyApp\Services\ChargeHelper;
 
 /**
  * Cancels the shop's current plan (in the database).

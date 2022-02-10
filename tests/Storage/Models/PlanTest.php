@@ -1,12 +1,12 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Storage\Models;
+namespace Segwitz\ShopifyApp\Test\Storage\Models;
 
-use Osiset\ShopifyApp\Objects\Enums\PlanType;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Util;
+use Segwitz\ShopifyApp\Objects\Enums\PlanType;
+use Segwitz\ShopifyApp\Objects\Values\PlanId;
+use Segwitz\ShopifyApp\Storage\Models\Plan;
+use Segwitz\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Util;
 
 class PlanTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Values;
+namespace Segwitz\ShopifyApp\Objects\Values;
 
 use Funeralzone\ValueObjects\Nullable;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
+use Segwitz\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
 
 /**
  * Value object for plan's ID (nullable).

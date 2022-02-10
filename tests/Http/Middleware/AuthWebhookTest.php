@@ -1,11 +1,11 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Http\Middleware;
+namespace Segwitz\ShopifyApp\Test\Http\Middleware;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Request;
-use Osiset\ShopifyApp\Http\Middleware\AuthWebhook as AuthWebhookMiddleware;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Http\Middleware\AuthWebhook as AuthWebhookMiddleware;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 class AuthWebhookTest extends TestCase
 {

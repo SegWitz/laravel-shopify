@@ -1,9 +1,9 @@
 <?php
 
-namespace Osiset\ShopifyApp\Http\Controllers;
+namespace Segwitz\ShopifyApp\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Osiset\ShopifyApp\Traits\ApiController as ApiControllerTrait;
+use Segwitz\ShopifyApp\Traits\ApiController as ApiControllerTrait;
 
 /**
  * Responsible for API routes.

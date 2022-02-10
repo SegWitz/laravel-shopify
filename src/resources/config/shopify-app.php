@@ -233,7 +233,7 @@ return [
     |
     */
 
-    'api_time_store' => env('SHOPIFY_API_TIME_STORE', \Osiset\BasicShopifyAPI\Store\Memory::class),
+    'api_time_store' => env('SHOPIFY_API_TIME_STORE', \Segwitz\BasicShopifyAPI\Store\Memory::class),
 
     /*
     |--------------------------------------------------------------------------
@@ -245,7 +245,7 @@ return [
     |
     */
 
-    'api_limit_store' => env('SHOPIFY_API_LIMIT_STORE', \Osiset\BasicShopifyAPI\Store\Memory::class),
+    'api_limit_store' => env('SHOPIFY_API_LIMIT_STORE', \Segwitz\BasicShopifyAPI\Store\Memory::class),
 
     /*
     |--------------------------------------------------------------------------
@@ -257,7 +257,7 @@ return [
     |
     */
 
-    'api_deferrer' => env('SHOPIFY_API_DEFERRER', \Osiset\BasicShopifyAPI\Deferrers\Sleep::class),
+    'api_deferrer' => env('SHOPIFY_API_DEFERRER', \Segwitz\BasicShopifyAPI\Deferrers\Sleep::class),
 
     /*
     |--------------------------------------------------------------------------
@@ -266,9 +266,9 @@ return [
     |
     | This option is for initializing the BasicShopifyAPI package yourself.
     | The first param injected in is the current options.
-    |    (\Osiset\BasicShopifyAPI\Options)
+    |    (\Segwitz\BasicShopifyAPI\Options)
     | The second param injected in is the session (if available) .
-    |    (\Osiset\BasicShopifyAPI\Session)
+    |    (\Segwitz\BasicShopifyAPI\Session)
     | The third param injected in is the current request input/query array.
         (\Illuminate\Http\Request::all())
     | With all this, you can customize the options, change params, and more.
@@ -452,12 +452,12 @@ return [
         /*
         * The fully qualified class name of the Charge model.
         */
-        'charge' => Osiset\ShopifyApp\Storage\Models\Charge::class,
+        'charge' => Segwitz\ShopifyApp\Storage\Models\Charge::class,
 
         /*
         * The fully qualified class name of the Plan model.
         */
-        'plan' => Osiset\ShopifyApp\Storage\Models\Plan::class,
+        'plan' => Segwitz\ShopifyApp\Storage\Models\Plan::class,
     ],
 
     'table_names' => [

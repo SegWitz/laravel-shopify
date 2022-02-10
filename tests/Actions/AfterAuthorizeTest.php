@@ -1,18 +1,18 @@
 <?php
 
-namespace Osiset\ShopifyApp\Test\Actions;
+namespace Segwitz\ShopifyApp\Test\Actions;
 
 use Illuminate\Support\Facades\Queue;
-use Osiset\ShopifyApp\Actions\AfterAuthorize;
-use Osiset\ShopifyApp\Test\Stubs\AfterAuthorizeJob;
-use Osiset\ShopifyApp\Test\TestCase;
+use Segwitz\ShopifyApp\Actions\AfterAuthorize;
+use Segwitz\ShopifyApp\Test\Stubs\AfterAuthorizeJob;
+use Segwitz\ShopifyApp\Test\TestCase;
 
 require_once __DIR__.'/../Stubs/AfterAuthorizeJob.php';
 
 class AfterAuthorizeTest extends TestCase
 {
     /**
-     * @var \Osiset\ShopifyApp\Actions\AfterAuthorize
+     * @var \Segwitz\ShopifyApp\Actions\AfterAuthorize
      */
     protected $action;
 
