@@ -29,6 +29,7 @@
         "funeralzone/valueobjects": "^0.5",
         "jenssegers/agent": "^2.6",
         "laravel/framework": "^7.0 || ^8.0",
+        "laravel/legacy-factories": "^1.3",
         "segwitz/basic-shopify-api": "dev-master"
     },
     "require-dev": {
@@ -41,7 +42,10 @@
         "phpunit/phpunit": "~8.0 || ^9.0"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
     },
     "extra": {
         "laravel": {

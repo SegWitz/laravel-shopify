@@ -5,6 +5,7 @@ namespace Segwitz\ShopifyApp\Traits;
 use Illuminate\Contracts\View\View as ViewView;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\View;
@@ -29,15 +30,22 @@ trait AuthController
      */
     public function authenticate(Request $request, AuthenticateShop $authShop)
     {
+        $userInput = $request->all();
+        array_walk_recursive($userInput, function (&$userInput) {
+            $userInput = strip_tags($userInput);
+        });
+        $request->merge($userInput);
         if ($request->missing('shop') && !$request->user()) {
             // One or the other is required to authenticate a shop
             throw new MissingShopDomainException('No authenticated user or shop domain');
         }
-
         // Get the shop domain
         $shopDomain = $request->has('shop')
             ? ShopDomain::fromNative($request->get('shop'))
             : $request->user()->getDomain();
+        if(!$request->filled('code') && strpos($shopDomain, Config::get('shopify-app.myshopify_domain'), (-1*strlen(Config::get('shopify-app.myshopify_domain')))) === false){
+            return redirect()->route('login');
+        }
 
         // If the domain is obtained from $request->user()
         if ($request->missing('shop')) {
