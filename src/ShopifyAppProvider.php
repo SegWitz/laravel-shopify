@@ -46,6 +46,7 @@ use Segwitz\ShopifyApp\Storage\Queries\Shop as ShopQuery;
 
 /**
  * This package's provider for Laravel.
+ *
  */
 class ShopifyAppProvider extends ServiceProvider
 {
