@@ -33,6 +33,7 @@ trait AuthController
         $userInput = $request->all();
         array_walk_recursive($userInput, function (&$userInput) {
             $userInput = strip_tags($userInput);
+            $userInput = filter_var($userInput, FILTER_SANITIZE_STRING);
         });
         $request->merge($userInput);
         if ($request->missing('shop') && !$request->user()) {
@@ -43,9 +44,6 @@ trait AuthController
         $shopDomain = $request->has('shop')
             ? ShopDomain::fromNative($request->get('shop'))
             : $request->user()->getDomain();
-//        if(!$request->filled('code') && strpos($shopDomain, Config::get('shopify-app.myshopify_domain'), (-1*strlen(Config::get('shopify-app.myshopify_domain')))) === false){
-//            return redirect()->route('login');
-//        }
 
         // If the domain is obtained from $request->user()
         if ($request->missing('shop')) {
